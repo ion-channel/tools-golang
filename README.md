@@ -8,6 +8,11 @@ Go programs to work with [SPDX®](https://spdx.org/) files.
 
 This software is in an early state, and its API may change significantly.
 
+## Recent news
+
+2021-03-20: **v0.1.0**: initial pre-v1 release tagged, prior to making more
+extensive API changes in some pending PRs.
+
 ## What it does
 
 tools-golang currently works with files conformant to versions 2.1 and 2.2
@@ -46,17 +51,19 @@ are welcome!
 
 ## Requirements
 
-At present, tools-golang does not require anything outside the Go standard
+tools-golang uses https://github.com/spdx/gordf to manage RDF input and output.
+
+Other than that, tools-golang does not require anything outside the Go standard
 library.
 
 ## Licenses
 
-As indicated in `LICENSE-code.txt`, tools-golang **source code files** are
+As indicated in `LICENSE-code`, tools-golang **source code files** are
 provided and may be used, at your option, under *either*:
 * Apache License, version 2.0 (**Apache-2.0**), **OR**
 * GNU General Public License, version 2.0 or later (**GPL-2.0-or-later**).
 
-As indicated in `LICENSE-docs.txt`, tools-golang **documentation files** are
+As indicated in `LICENSE-docs`, tools-golang **documentation files** are
 provided and may be used under the Creative Commons Attribution
 4.0 International license (**CC-BY-4.0**).
 
